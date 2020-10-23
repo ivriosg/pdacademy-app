@@ -1,0 +1,59 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "b67fe9cace283a7dfd5a",
+  "publicPath": "/static/",
+  "outputPath": "/Desarrollo/pdacademy-app/build/static",
+  "assetsByChunkName": {
+    "pdacademy-app": "pdacademy-app.module.js"
+  },
+  "assets": [
+    {
+      "name": "pdacademy-app.module.js",
+      "size": 4886337,
+      "chunks": [
+        "pdacademy-app"
+      ],
+      "chunkNames": [
+        "pdacademy-app"
+      ],
+      "info": {},
+      "emitted": true,
+      "isOverSizeLimit": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "pdacademy-app": {
+      "chunks": [
+        "pdacademy-app"
+      ],
+      "assets": [
+        "pdacademy-app.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "pdacademy-app": {
+      "chunks": [
+        "pdacademy-app"
+      ],
+      "assets": [
+        "pdacademy-app.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": []
+}
