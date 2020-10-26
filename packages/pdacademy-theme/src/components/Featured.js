@@ -1,15 +1,17 @@
-import React from'react'
-import {connect} from 'frontity'
+import React from "react";
+import { connect } from "frontity";
 
 const Featured = ({ state, imgID, element }) => {
-  const media = state.source.attachment[imgID]
+  const media = state.source.attachment;
 
-  return element === 'video' && (
-    <>
-      <p>Imagen desde component {imgID} </p>
-      <img src={media.media_details.sizes.medium.source_url} />
-    </>
-  )
-}
+  const datos = media[imgID].source_url;
+  return (
+    element === "video" && (
+      <>
+       <img src= {datos} />
+      </>
+    )
+  );
+};
 
-export default connect(Featured)
+export default connect(Featured);

@@ -2,16 +2,45 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b67fe9cace283a7dfd5a",
+  "hash": "1b7854fed882698dc5a3",
   "publicPath": "/static/",
   "outputPath": "/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
-    "pdacademy-app": "pdacademy-app.module.js"
+    "pdacademy-app": [
+      "pdacademy-app.module.js",
+      "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
+    ]
   },
   "assets": [
     {
+      "name": "6fa790aa2b63f353bf81.hot-update.json",
+      "size": 55,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js",
+      "size": 3222,
+      "chunks": [
+        "pdacademy-app"
+      ],
+      "chunkNames": [
+        "pdacademy-app"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "pdacademy-app.module.js",
-      "size": 4886337,
+      "size": 4886116,
       "chunks": [
         "pdacademy-app"
       ],
@@ -19,8 +48,7 @@
         "pdacademy-app"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,
@@ -30,7 +58,8 @@
         "pdacademy-app"
       ],
       "assets": [
-        "pdacademy-app.module.js"
+        "pdacademy-app.module.js",
+        "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -42,7 +71,8 @@
         "pdacademy-app"
       ],
       "assets": [
-        "pdacademy-app.module.js"
+        "pdacademy-app.module.js",
+        "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
