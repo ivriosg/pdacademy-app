@@ -2,16 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b67fe9cace283a7dfd5a",
+  "hash": "b13295d7c6b60818b0ef",
   "publicPath": "/static/",
-  "outputPath": "/Desarrollo/pdacademy-app/build/static",
+  "outputPath": "/Users/ivriosg/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
     "pdacademy-app": "pdacademy-app.module.js"
   },
   "assets": [
     {
       "name": "pdacademy-app.module.js",
-      "size": 4886337,
+      "size": 4886205,
       "chunks": [
         "pdacademy-app"
       ],
@@ -19,8 +19,7 @@
         "pdacademy-app"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,

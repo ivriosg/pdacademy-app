@@ -20,6 +20,7 @@ const settings = {
           params: {
             //creando paginación
             "per_page" : 99,
+            "offset" : 1,
           },
 
           //configurar CPT para obtenerlos

@@ -6,8 +6,7 @@ const Featured = ({ state, imgID, element }) => {
 
   return element === 'video' && (
     <>
-      <p>Imagen desde component {imgID} </p>
-      <img src={media.media_details.sizes.medium.source_url} />
+      <img src = {media.media_details.sizes.medium_large.source_url} />
     </>
   )
 }
