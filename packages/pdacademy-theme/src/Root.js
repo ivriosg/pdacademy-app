@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Videos from "./pages/Videos";
 import Pildoras from "./pages/Pildoras";
 import Post from "./components/Post";
+import Base from "./styles/Base";
 
 const Root = ({ state, actions }) => {
   const data = state.source.get(state.router.link);
@@ -16,6 +17,7 @@ const Root = ({ state, actions }) => {
 
   return (
     <>
+      <Base />
       <Header />
       <h1>Product Designer</h1>
       <hr />

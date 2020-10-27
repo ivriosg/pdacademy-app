@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "eaf7e98b266d8e22d8cf",
+  "hash": "b00ae259b640f40bc41d",
   "publicPath": "/static/",
   "outputPath": "/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
     "pdacademy-app": [
       "pdacademy-app.module.js",
-      "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
+      "pdacademy-app.29c455c15887837521df.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "88d5b91256bc32cf8eeb.hot-update.json",
+      "name": "29c455c15887837521df.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -24,8 +24,32 @@
       "emitted": false
     },
     {
-      "name": "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js",
-      "size": 11407,
+      "name": "images/moon.png",
+      "size": 22057,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/pda-logo.svg",
+      "size": 19857,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/sun.png",
+      "size": 22388,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pdacademy-app.29c455c15887837521df.hot-update.js",
+      "size": 7920,
       "chunks": [
         "pdacademy-app"
       ],
@@ -40,7 +64,7 @@
     },
     {
       "name": "pdacademy-app.module.js",
-      "size": 4906526,
+      "size": 4937926,
       "chunks": [
         "pdacademy-app"
       ],
@@ -59,7 +83,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
+        "pdacademy-app.29c455c15887837521df.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -72,7 +96,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
+        "pdacademy-app.29c455c15887837521df.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

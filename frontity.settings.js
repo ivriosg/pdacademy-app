@@ -55,7 +55,7 @@ const settings = {
               postTypeEndpoint : "pildora",
             }
           ]
-        },
+        }
       },
     },
     "@frontity/tiny-router",

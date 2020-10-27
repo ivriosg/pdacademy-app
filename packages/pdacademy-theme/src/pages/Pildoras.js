@@ -25,8 +25,21 @@ const Pildoras = ({ state, actions }) => {
       </p>
       <h3>{data.items.length} píldoras disponibles.</h3>
       <Search />
-      { !filteredPills.length > 0 && <p> No existen píldoras relacionados con: {state.theme.searchPildoraValue} </p>}
+      {/* Colocar filtro por si no existen resultados en la búsqueda */}
+      {!filteredPills.length > 0 && (
+        <p>
+          {" "}
+          No existen píldoras relacionados con: {
+            state.theme.searchPildoraValue
+          }{" "}
+        </p>
+      )}
+      {/* Mostrando resultado de la búsqueda */}
       {filteredPills.reverse().map((pildora) => {
+        //obteniendo el ID de la temática para mostrarla
+        const tematicaID = pildora.tematica[0];
+        const tematica = state.source.tematica[tematicaID];
+
         return (
           <article key={pildora.id}>
             <Link href={pildora.link}>
@@ -37,6 +50,7 @@ const Pildoras = ({ state, actions }) => {
             <div
               dangerouslySetInnerHTML={{ __html: pildora.excerpt.rendered }}
             ></div>
+            <p>Temática: {tematica.name}</p>
           </article>
         );
       })}

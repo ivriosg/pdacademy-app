@@ -14,9 +14,14 @@ const Post = ({ state, element }) => {
       </>
     );
   } else if (element === "pildora") {
+    
+    // Obteniendo el ID de la temática para mostrarla
+    const tematicaID = post.tematica[0];
+    const tematica = state.source.tematica[tematicaID];
     return (
       <>
         <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }}></h2>
+        <p>Temática: {tematica.name}</p>
         <div dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
       </>
     );

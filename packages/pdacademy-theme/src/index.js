@@ -9,6 +9,8 @@ export default {
   state: {
     theme: {
       searchPildoraValue: "",
+      // Configurar Dark Mode
+      isDarkModeOn: false,
     },
   },
   actions: {
@@ -16,6 +18,14 @@ export default {
       setSearchPildoraValue: ({ state }) => (value) => {
         state.theme.searchPildoraValue = value;
       },
+
+      // Configurando variables para prender y apagar el Dark Mode
+      setDarkModeOn: ({state}) => {
+        state.theme.isDarkModeOn = true;
+      },
+      setDarkModeOff: ({state}) => {
+        state.theme.isDarkModeOn = false;
+      }
     },
   },
 };
