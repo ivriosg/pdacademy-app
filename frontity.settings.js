@@ -35,6 +35,11 @@ const settings = {
               endpoint: "curso",
               archive: "/cursos",
             },
+            {
+              type: "pildora",
+              endpoint: "pildora",
+              archive: "/pildoras",
+            },
           ],
 
           //agregar taxonomy
@@ -43,6 +48,11 @@ const settings = {
               taxonomy : "nivel",
               endpoint : "nivel",
               postTypeEndpoint : "curso",
+            },
+            {
+              taxonomy : "temarica",
+              endpoint : "tematica",
+              postTypeEndpoint : "pildora",
             }
           ]
         },

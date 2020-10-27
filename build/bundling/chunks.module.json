@@ -2,30 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-<<<<<<< HEAD
-  "hash": "a4f27798f45f10f8a573",
-=======
-  "hash": "1b7854fed882698dc5a3",
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+  "hash": "eaf7e98b266d8e22d8cf",
   "publicPath": "/static/",
-  "outputPath": "/Users/ivriosg/Desarrollo/pdacademy-app/build/static",
+  "outputPath": "/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
     "pdacademy-app": [
       "pdacademy-app.module.js",
-<<<<<<< HEAD
-      "pdacademy-app.81cb29dcc77106aa41a4.hot-update.js"
-=======
-      "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+      "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
     ]
   },
   "assets": [
     {
-<<<<<<< HEAD
-      "name": "81cb29dcc77106aa41a4.hot-update.json",
-=======
-      "name": "6fa790aa2b63f353bf81.hot-update.json",
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+      "name": "88d5b91256bc32cf8eeb.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -36,13 +24,8 @@
       "emitted": false
     },
     {
-<<<<<<< HEAD
-      "name": "pdacademy-app.81cb29dcc77106aa41a4.hot-update.js",
-      "size": 3458,
-=======
-      "name": "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js",
-      "size": 3222,
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+      "name": "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js",
+      "size": 11407,
       "chunks": [
         "pdacademy-app"
       ],
@@ -57,11 +40,7 @@
     },
     {
       "name": "pdacademy-app.module.js",
-<<<<<<< HEAD
-      "size": 4886402,
-=======
-      "size": 4886116,
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+      "size": 4906526,
       "chunks": [
         "pdacademy-app"
       ],
@@ -80,11 +59,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-<<<<<<< HEAD
-        "pdacademy-app.81cb29dcc77106aa41a4.hot-update.js"
-=======
-        "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+        "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -97,11 +72,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-<<<<<<< HEAD
-        "pdacademy-app.81cb29dcc77106aa41a4.hot-update.js"
-=======
-        "pdacademy-app.6fa790aa2b63f353bf81.hot-update.js"
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+        "pdacademy-app.88d5b91256bc32cf8eeb.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

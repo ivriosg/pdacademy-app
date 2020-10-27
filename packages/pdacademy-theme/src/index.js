@@ -1,15 +1,21 @@
 import React from "react";
-import Root from './Root'
+import Root from "./Root";
 
 export default {
   name: "pdacademy-theme",
   roots: {
-    theme: Root
+    theme: Root,
   },
   state: {
-    theme: {}
+    theme: {
+      searchPildoraValue: "",
+    },
   },
   actions: {
-    theme: {}
-  }
+    theme: {
+      setSearchPildoraValue: ({ state }) => (value) => {
+        state.theme.searchPildoraValue = value;
+      },
+    },
+  },
 };

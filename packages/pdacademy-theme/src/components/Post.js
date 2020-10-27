@@ -13,6 +13,13 @@ const Post = ({ state, element }) => {
         <div dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
       </>
     );
+  } else if (element === "pildora") {
+    return (
+      <>
+        <h2 dangerouslySetInnerHTML={{ __html: post.title.rendered }}></h2>
+        <div dangerouslySetInnerHTML={{ __html: post.content.rendered }}></div>
+      </>
+    );
   } else {
     return <p>No soy un video</p>;
   }
