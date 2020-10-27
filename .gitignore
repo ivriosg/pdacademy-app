@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-node_modules
-=======
 node_modules/
 build/
 .DS_Store
->>>>>>> baab55fe188f31e14ab16528940fd01c6eca4c24
+
