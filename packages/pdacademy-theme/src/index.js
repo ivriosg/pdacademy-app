@@ -10,7 +10,9 @@ export default {
     theme: {
       searchPildoraValue: "",
       // Configurar Dark Mode
-      isDarkModeOn: false,
+      isDarkModeOn: true,
+      // Configurar menu movil
+      isMobileMenuOpen: false,
     },
   },
   actions: {
@@ -24,6 +26,13 @@ export default {
       },
       setDarkModeOff: ({state}) => {
         state.theme.isDarkModeOn = false;
+      },
+      // Configuramos variables para abrir y cerrar el menu movil
+      toogleMobileMenu: ({state}) => {
+        state.theme.isMobileMenuOpen = !state.theme.isMobileMenuOpen;
+      },
+      closeMobileMenu: ({state}) => {
+        state.theme.isMobileMenuOpen = false;
       }
     },
   },

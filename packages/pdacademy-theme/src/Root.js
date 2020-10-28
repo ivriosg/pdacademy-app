@@ -21,7 +21,6 @@ const Root = ({state,actions}) => {
     <>
       <Base />
       <Header />
-      <h1>Product Designer</h1>
       <hr />
 
       {data.isFetching && <p> Cargando Información </p>}
@@ -31,6 +30,7 @@ const Root = ({state,actions}) => {
       {data.isPildoraArchive && <Pildoras />}
       {data.isPildora && <Post element="pildora" />}
       {data.isCursoArchive && <p>Estamos en Cursos</p>}
+      {data.isPage && <Post />}
     </>
   );
 };
