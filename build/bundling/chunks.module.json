@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b00ae259b640f40bc41d",
+  "hash": "ed3e5f6211385ad2e7bc",
   "publicPath": "/static/",
-  "outputPath": "/Desarrollo/pdacademy-app/build/static",
+  "outputPath": "/Users/ivriosg/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
     "pdacademy-app": [
       "pdacademy-app.module.js",
-      "pdacademy-app.29c455c15887837521df.hot-update.js"
+      "pdacademy-app.52bfd00f75f8e7609d17.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "29c455c15887837521df.hot-update.json",
+      "name": "52bfd00f75f8e7609d17.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -24,8 +24,8 @@
       "emitted": false
     },
     {
-      "name": "images/moon.png",
-      "size": 22057,
+      "name": "images/moon.svg",
+      "size": 577,
       "chunks": [],
       "chunkNames": [],
       "info": {},
@@ -40,16 +40,24 @@
       "emitted": false
     },
     {
-      "name": "images/sun.png",
-      "size": 22388,
+      "name": "images/screenshot.jpg",
+      "size": 7304,
       "chunks": [],
       "chunkNames": [],
       "info": {},
       "emitted": false
     },
     {
-      "name": "pdacademy-app.29c455c15887837521df.hot-update.js",
-      "size": 7920,
+      "name": "images/sun.svg",
+      "size": 828,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "pdacademy-app.52bfd00f75f8e7609d17.hot-update.js",
+      "size": 5615,
       "chunks": [
         "pdacademy-app"
       ],
@@ -64,7 +72,7 @@
     },
     {
       "name": "pdacademy-app.module.js",
-      "size": 4937926,
+      "size": 4945733,
       "chunks": [
         "pdacademy-app"
       ],
@@ -83,7 +91,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.29c455c15887837521df.hot-update.js"
+        "pdacademy-app.52bfd00f75f8e7609d17.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -96,7 +104,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.29c455c15887837521df.hot-update.js"
+        "pdacademy-app.52bfd00f75f8e7609d17.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

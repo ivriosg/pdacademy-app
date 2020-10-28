@@ -18,7 +18,6 @@ export default {
       setSearchPildoraValue: ({ state }) => (value) => {
         state.theme.searchPildoraValue = value;
       },
-
       // Configurando variables para prender y apagar el Dark Mode
       setDarkModeOn: ({state}) => {
         state.theme.isDarkModeOn = true;

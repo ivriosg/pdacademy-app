@@ -12,10 +12,9 @@ const Base = ({ state }) => {
   return (
     <Global
       styles={css`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
-        html {
-          font-family: "Inter", sans-serif;
-        }
+      html {
+        font-family: sans-serif;
+      }
         body {
           margin: 0;
           background-color: ${isDarkModeOn == true ? mainBlack : "white"};
@@ -23,8 +22,8 @@ const Base = ({ state }) => {
         }
         a {
           text-decoration: none;
-          font-weight: bolder;
           color: ${isDarkModeOn == true ? "white" : "black"};
+          font-weight: bold;
         }
         a:hover {
           color: ${mainRed};

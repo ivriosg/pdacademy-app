@@ -16,13 +16,11 @@ const settings = {
       state: {
         source: {
           api: "https://productdesigner.es/wp-json",
-
           params: {
             //creando paginación
             "per_page" : 99,
-            "offset" : 1
+            //"offset" : 1
           },
-
           //configurar CPT para obtenerlos
           postTypes: [
             {
