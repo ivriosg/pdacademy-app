@@ -9,7 +9,7 @@ const Featured = ({ state, imgID, element }) => {
     element === "video" && (
       <>
         {typeof media == "undefined" ? (
-          <img src={Screenshot} />
+          <img src={Screenshot} alt="Imagen por defecto" />
         ) : (
           <img
             src={media.media_details.sizes.medium_large.source_url}

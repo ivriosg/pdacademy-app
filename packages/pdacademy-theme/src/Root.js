@@ -15,6 +15,7 @@ const Root = ({state,actions}) => {
     actions.source.fetch("/pildoras");
     actions.source.fetch("/videos");
     actions.source.fetch("/inicio");
+    actions.source.fetch("/por-que-product-designer-academy");
   }, []);
 
   return (

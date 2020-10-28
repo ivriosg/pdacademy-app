@@ -52,7 +52,7 @@ const Header = () => {
             <Link href="/cursos">Curso</Link>
             <Link href="/videos">Videos</Link>
             <Link href="/pildoras">Pildoras</Link>
-            <Link href="/por-que-product-designer-academy/">Por qué PDA</Link>
+            <Link href="/por-que-product-designer-academy">Por qué PDA</Link>
             <Link href="/contactar">Contactar</Link>
           </NavLinks>
           <MenuButton />

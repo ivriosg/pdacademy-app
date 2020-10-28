@@ -10,7 +10,7 @@ export default {
     theme: {
       searchPildoraValue: "",
       // Configurar Dark Mode
-      isDarkModeOn: true,
+      isDarkModeOn: false,
       // Configurar menu movil
       isMobileMenuOpen: false,
     },
