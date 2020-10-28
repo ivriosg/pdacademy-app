@@ -38,6 +38,11 @@ const settings = {
               endpoint: "pildora",
               archive: "/pildoras",
             },
+            {
+              type: "guia",
+              endpoint: "guia",
+              archive: "/guias",
+            },
           ],
 
           //agregar taxonomy

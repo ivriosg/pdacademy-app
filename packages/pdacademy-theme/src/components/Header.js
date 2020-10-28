@@ -50,8 +50,10 @@ const Header = () => {
         <NavigationBarContentRight>
           <NavLinks>
             <Link href="/cursos">Curso</Link>
+            <Link href="/guias">Guías</Link>
             <Link href="/videos">Videos</Link>
             <Link href="/pildoras">Pildoras</Link>
+            <Link href="/diario-de-un-producto">Podcast</Link>
             <Link href="/por-que-product-designer-academy">Por qué PDA</Link>
             <Link href="/contactar">Contactar</Link>
           </NavLinks>

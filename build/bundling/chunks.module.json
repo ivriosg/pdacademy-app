@@ -2,18 +2,18 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "a56e1c4ca6b4f8a589e4",
+  "hash": "88dc680272dc72787666",
   "publicPath": "/static/",
   "outputPath": "/Desarrollo/pdacademy-app/build/static",
   "assetsByChunkName": {
     "pdacademy-app": [
       "pdacademy-app.module.js",
-      "pdacademy-app.0fc08fe923ff766c76ce.hot-update.js"
+      "pdacademy-app.8f38aa75f3e194869ff6.hot-update.js"
     ]
   },
   "assets": [
     {
-      "name": "0fc08fe923ff766c76ce.hot-update.json",
+      "name": "8f38aa75f3e194869ff6.hot-update.json",
       "size": 55,
       "chunks": [],
       "chunkNames": [],
@@ -56,8 +56,8 @@
       "emitted": false
     },
     {
-      "name": "pdacademy-app.0fc08fe923ff766c76ce.hot-update.js",
-      "size": 4878,
+      "name": "pdacademy-app.8f38aa75f3e194869ff6.hot-update.js",
+      "size": 4418,
       "chunks": [
         "pdacademy-app"
       ],
@@ -72,7 +72,7 @@
     },
     {
       "name": "pdacademy-app.module.js",
-      "size": 5074655,
+      "size": 5084076,
       "chunks": [
         "pdacademy-app"
       ],
@@ -91,7 +91,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.0fc08fe923ff766c76ce.hot-update.js"
+        "pdacademy-app.8f38aa75f3e194869ff6.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -104,7 +104,7 @@
       ],
       "assets": [
         "pdacademy-app.module.js",
-        "pdacademy-app.0fc08fe923ff766c76ce.hot-update.js"
+        "pdacademy-app.8f38aa75f3e194869ff6.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

@@ -17,7 +17,6 @@ const Post = ({ state, element, libraries }) => {
       </>
     );
   } else if (element === "pildora") {
-    
     // Obteniendo el ID de la temática para mostrarla
     const tematicaID = post.tematica[0];
     const tematica = state.source.tematica[tematicaID];
@@ -31,7 +30,7 @@ const Post = ({ state, element, libraries }) => {
   } else {
     return (
       <>
-        <Html2react html = {post.content.rendered} />
+        <Html2react html={post.content.rendered} />
       </>
     );
   }

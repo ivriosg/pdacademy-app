@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { connect } from "frontity";
 import Header from "./components/Header";
 import Videos from "./pages/Videos";
+import Guias from "./pages/Guias";
 import Pildoras from "./pages/Pildoras";
 import Post from "./components/Post";
 import Base from "./styles/Base";
@@ -12,8 +13,11 @@ const Root = ({state,actions}) => {
 
   // Obtener URL's en fetch para cargar el contenido
   useEffect(() => {
-    actions.source.fetch("/pildoras");
+    actions.source.fetch("/cursos");
+    actions.source.fetch("/guias");
     actions.source.fetch("/videos");
+    actions.source.fetch("/pildoras");
+    actions.source.fetch("/diario-de-un-producto");
     actions.source.fetch("/inicio");
     actions.source.fetch("/por-que-product-designer-academy");
   }, []);
@@ -28,6 +32,8 @@ const Root = ({state,actions}) => {
       {data.isHome && <Home />}
       {data.isVideoArchive && <Videos />}
       {data.isVideo && <Post element="video" />}
+      {data.isGuiaArchive && <Guias />}
+      {data.isGuia && <Post element="guia" />}
       {data.isPildoraArchive && <Pildoras />}
       {data.isPildora && <Post element="pildora" />}
       {data.isCursoArchive && <p>Estamos en Cursos</p>}
